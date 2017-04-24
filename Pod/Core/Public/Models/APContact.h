@@ -37,5 +37,6 @@
 @property (nullable, nonatomic, strong) APSource *source;
 @property (nullable, nonatomic, strong) NSArray <APContactDate *> *dates;
 @property (nullable, nonatomic, strong) APRecordDate *recordDate;
+@property (nullable, nonatomic, copy) NSString *sortField;
 
 @end

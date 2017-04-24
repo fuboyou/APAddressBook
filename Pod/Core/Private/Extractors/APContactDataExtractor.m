@@ -33,6 +33,12 @@
     return name;
 }
 
+- (NSString *)description
+{
+    NSString *description = [self compositeName];
+    return description;
+}
+
 - (APJob *)job
 {
     APJob *job = [[APJob alloc] init];

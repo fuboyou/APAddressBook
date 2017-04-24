@@ -20,6 +20,7 @@
 @property (nonatomic, assign) ABRecordRef recordRef;
 
 - (APName *)name;
+- (NSString *)description;
 - (APJob *)job;
 - (NSArray *)phonesWithLabels:(BOOL)needLabels;
 - (NSArray *)emailsWithLabels:(BOOL)needLabels;

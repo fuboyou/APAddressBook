@@ -93,6 +93,10 @@
     {
         contact.recordDate = [self.extractor recordDate];
     }
+    if (fieldMask & APContactFieldDescription)
+    {
+        contact.sortField = [self.extractor description];
+    }
     return contact;
 }
 
